@@ -1,7 +1,6 @@
 .card {
-  box-sizing: border-box;
   width: 200px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $border-color;
   border-radius: 5px;
   background-color: $white;
   padding: 33px 17px 20px;
@@ -24,17 +23,15 @@
 
   &__title {
     font-weight: 500;
-    font-size: 12px;
+    font-size: 1rem;
     line-height: 18px;
     color: $primary;
-    margin: 0;
   }
 
   &__code {
-    font-size: 10px;
+    font-size: 0.83rem;
     line-height: 14px;
     color: $secondary;
-    margin: 0;
     font-weight: 400;
   }
 
@@ -47,12 +44,10 @@
 
   &__rating-text {
     font-weight: 400;
-    font-size: 10px;
+    font-size: 0.83rem;
     color: $secondary;
     line-height: 14px;
     text-align: right;
-    vertical-align: bottom;
-    margin: 0;
   }
 
   &__price {
@@ -64,20 +59,16 @@
 
   &__price-label {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1rem;
     line-height: 18px;
-    vertical-align: bottom;
     color: $secondary;
-    margin: 0;
   }
 
   &__price-value {
-    margin: 0;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1.33rem;
     line-height: 18px;
     text-align: right;
-    vertical-align: bottom;
     color: $primary;
   }
 
@@ -87,19 +78,16 @@
     background-color: $blue-accent;
     color: $white;
     text-align: center;
-    text-decoration: none;
     border-radius: 5px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1rem;
     line-height: 18px;
-    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: $transition-base;
     cursor: pointer;
     border: 1px solid transparent;
-    box-sizing: border-box;
 
     &:hover {
       background-color: $white;
